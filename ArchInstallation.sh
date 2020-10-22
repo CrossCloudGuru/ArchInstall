@@ -31,7 +31,7 @@ echo -e "Disk: Recognized as $DISK_NAME"
 DISK_SIZE_GB=$(fdisk -l | grep "GiB" | awk '{print $3}')
 echo -e "Disk: Size in GB: $DISK_SIZE_GB"
 
-# Create a partition layout file for a 40GB disk:
+# Create a partition layout file for the disk:
 echo -e "\n * Create partition layout file ...\n"
 source diskSectorCalculator.sh $DISK_SIZE_GB
 
