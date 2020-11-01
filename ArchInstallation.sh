@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 ################################################################################
 # Filename: ArchInstallation.sh
+# Author: Marco Tijbout - CrossCloud.Guru
+# License: GNU GPL v2.0
+# Version: 1
+#
 # Date Created: 21-dec-19
 # Date last update: 21-dec-19
-# Author: Marco Tijbout
-#
-# Version 0.1
 #
 # Enhancement ideas:
 #   - 
